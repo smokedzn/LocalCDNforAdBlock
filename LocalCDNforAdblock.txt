@@ -1,16 +1,260 @@
 [Adblock Plus 2.0]
 ! Title: LocalCDN for Adblock - Allowlist
-! Description: Covers every framework + every CDN (incl. mirrors) from LocalCDN and more.
+! Description: Covers Frameworks and CDNs which are or have been included inside the Add-on 'LocalCDN' while offering further optimizations or by adding other missing important frameworks.
 ! Homepage: https://github.com/smokedzn/LocalCDNforAdBlock
 ! License: https://github.com/smokedzn/LocalCDNforAdBlock/blob/main/LICENSE
 ! Issues: https://github.com/smokedzn/LocalCDNforAdBlock/issues
-! Version: 2025.1102.1624.02
+! Version: 2025.1102.1649.34
 ! Syntax: AdBlock
-! Number of entries: 142
+! Number of entries: 
 
-! ############################################################
-! ### 1. Core CDNs (Google, Microsoft, Cloudflare, jQuery) ###
-! ############################################################
+! ##############################################
+! ### 1.1 Frameworks (Fonts, Icons, Scripts) ###
+! ##############################################
+
+@@||ajax.googleapis.com/ajax/libs/ajax-bootstrap-select^$script
+@@||cdn.jsdelivr.net/npm/ajax-bootstrap-select^$script
+@@||cdn.jsdelivr.net/npm/algoliasearch^$script
+@@||cdn.jsdelivr.net/npm/alpinejs^$script
+@@||cdn.jsdelivr.net/npm/anchor-js^$script
+@@||cdn.jsdelivr.net/npm/angucomplete-alt^$script
+@@||ajax.googleapis.com/ajax/libs/angularjs^$script
+@@||ajax.googleapis.com/ajax/libs/angular_material^$script
+@@||cdn.jsdelivr.net/npm/angular-translate^$script
+@@||cdn.jsdelivr.net/npm/animate.css^$stylesheet
+@@||cdn.jsdelivr.net/npm/animejs^$script
+@@||cdn.jsdelivr.net/npm/aos^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/appboy-web-sdk^$script
+@@||cdn.jsdelivr.net/npm/asciinema-player^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/autocomplete.js^$script
+@@||cdn.jsdelivr.net/npm/axios^$script
+@@||cdn.jsdelivr.net/npm/backbone.js^$script
+@@||cdn.jsdelivr.net/npm/baguettebox.js^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/blazy^$script
+@@||cdn.jsdelivr.net/npm/bluebird^$script
+@@||cdn.jsdelivr.net/npm/bodymovin^$script
+@@||cdn.jsdelivr.net/npm/bootbox.js^$script
+@@||getbootstrap.com^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/bootstrap@^3|^4|^5|$script,stylesheet
+@@||cdn.jsdelivr.net/npm/bootstrap-daterangepicker^$script
+@@||cdn.jsdelivr.net/npm/bootstrap-datepicker^$script
+@@||cdn.jsdelivr.net/npm/bootstrap-icons^$stylesheet
+@@||cdn.jsdelivr.net/npm/bootstrap-multiselect^$script
+@@||cdn.jsdelivr.net/npm/bootstrap-select^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/bootstrap-slider^$script
+@@||cdn.jsdelivr.net/npm/bootstrap-table^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/bootstrap-toggle^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/bootstrap-3-typeahead^$script
+@@||cdn.jsdelivr.net/npm/1000hz-bootstrap-validator^$script
+@@||cdn.jsdelivr.net/npm/bootstrap-vue^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/bootswatch^$stylesheet
+@@||cdn.jsdelivr.net/npm/bowser^$script
+@@||cdn.jsdelivr.net/npm/bulma^$stylesheet
+@@||cdn.jsdelivr.net/npm/bxslider^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/chart.js^$script
+@@||cdn.jsdelivr.net/npm/chosen^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/clappr^$script
+@@||cdn.jsdelivr.net/npm/clipboard^$script
+@@||cdn.jsdelivr.net/npm/cookieconsent^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/corejs-typeahead^$script
+@@||cdn.jsdelivr.net/npm/createjs^$script
+@@||cdn.jsdelivr.net/npm/d3^$script
+@@||cdn.datatables.net^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/dayjs^$script
+@@||cdn.jsdelivr.net/npm/dexie^$script
+@@||cdn.jsdelivr.net/npm/docsearch.js^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/docsify^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/docsify-themeable^$stylesheet
+@@||cdn.jsdelivr.net/npm/dygraph^$script
+@@||cdn.jsdelivr.net/npm/element-ui^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/embedly-player^$script
+@@||cdn.jsdelivr.net/npm/ethjs^$script
+@@||cdn.jsdelivr.net/npm/exif-js^$script
+@@||cdn.jsdelivr.net/npm/ext-core^$script
+@@||cdn.jsdelivr.net/npm/fancybox^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/fastclick^$script
+@@||cdn.jsdelivr.net/npm/feather-icons^$script
+@@||cdn.jsdelivr.net/npm/featherlight^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/flickity^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/flv.js^$script
+@@||use.fontawesome.com^$stylesheet
+@@||cdn.jsdelivr.net/npm/font-awesome^$stylesheet
+@@||cdn.jsdelivr.net/npm/fork-awesome^$stylesheet
+@@||cdn.jsdelivr.net/npm/fos-icon^$stylesheet
+@@||cdn.jsdelivr.net/npm/foundation^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/foundicons^$stylesheet
+@@||cdn.jsdelivr.net/npm/granim^$script
+@@||cdn.jsdelivr.net/npm/gsap^$script
+@@||fonts.googleapis.com^$stylesheet
+@@||fonts.gstatic.com^$font
+@@||material.io^$stylesheet
+@@||cdn.jsdelivr.net/npm/google-material-design-icons^$stylesheet
+@@||cdn.jsdelivr.net/npm/handlebars^$script
+@@||cdn.jsdelivr.net/npm/highlight.js^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/history^$script
+@@||cdn.jsdelivr.net/npm/hls.js^$script
+@@||cdn.jsdelivr.net/npm/hogan.js^$script
+@@||cdn.jsdelivr.net/npm/instantsearch.js^$script
+@@||cdn.jsdelivr.net/npm/instantsearch.css^$stylesheet
+@@||cdn.jsdelivr.net/npm/in-view^$script
+@@||cdn.jsdelivr.net/npm/iscroll^$script
+@@||cdn.jsdelivr.net/npm/izimodal^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jasny-bootstrap^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jeditable.js^$script
+@@||cdn.jsdelivr.net/npm/jets^$script
+@@||cdn.jsdelivr.net/npm/jquery.devbridge-autocomplete^$script
+@@||ajax.googleapis.com/ajax/libs/jquery^$script
+@@||code.jquery.com/jquery^$script
+@@||cdn.jsdelivr.net/npm/jquery^$script
+@@||cdn.jsdelivr.net/npm/jquery.blockUI^$script
+@@||cdn.jsdelivr.net/npm/jquery.cycle2^$script
+@@||cdn.jsdelivr.net/npm/jquery.colorbox^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jquery-cookie^$script
+@@||cdn.jsdelivr.net/npm/jquery-csv^$script
+@@||cdn.jsdelivr.net/npm/jquery-easing^$script
+@@||cdn.jsdelivr.net/npm/jquery-jcrop^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jquery.lazyload^$script
+@@||cdn.jsdelivr.net/npm/jquery.lazy^$script
+@@||cdn.jsdelivr.net/npm/jquery.matchHeight^$script
+@@||cdn.jsdelivr.net/npm/jquery-migrate^$script
+@@||cdn.jsdelivr.net/npm/jquery-minicolors^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jquery-modal^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jquery-mousewheel^$script
+@@||cdn.jsdelivr.net/npm/jquery-powertip^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jquery.scrollbar^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jquery-scrollTo^$script
+@@||cdn.jsdelivr.net/npm/jquery.tablesorter^$script
+@@||cdn.jsdelivr.net/npm/jquery-timeago^$script
+@@||cdn.jsdelivr.net/npm/jquery-tiny-pubsub^$script
+@@||cdn.jsdelivr.net/npm/tooltipster^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jquery-ujs^$script
+@@||ajax.googleapis.com/ajax/libs/jqueryui^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jscrollpane^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/urlive^$script
+@@||cdn.jsdelivr.net/npm/jquery-validate^$script
+@@||ajax.googleapis.com/ajax/libs/jquery-mobile^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/jquery-validation-unobtrusive^$script
+@@||cdn.jsdelivr.net/npm/js-cookie^$script
+@@||cdn.jsdelivr.net/npm/jsrender^$script
+@@||cdn.jsdelivr.net/npm/knockout^$script
+@@||cdn.jsdelivr.net/npm/knockout.mapping^$script
+@@||cdn.jsdelivr.net/npm/lazysizes^$script
+@@||cdn.jsdelivr.net/npm/leaflet^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/leaflet.easybutton^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/leaflet.featuregroup.subgroup^$script
+@@||cdn.jsdelivr.net/npm/leaflet.markercluster^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/libphonenumber-js^$script
+@@||cdn.jsdelivr.net/npm/libsodium-wrappers^$script
+@@||cdn.jsdelivr.net/npm/lightbox2^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/lightcase^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/lightgallery^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/lodash^$script
+@@||cdn.jsdelivr.net/npm/lozad^$script
+@@||cdn.jsdelivr.net/npm/lunr^$script
+@@||cdn.jsdelivr.net/npm/mathjax^$script
+@@||cdn.jsdelivr.net/npm/magnific-popup^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/markdown-it^$script
+@@||cdn.jsdelivr.net/npm/material-design-icons^$stylesheet
+@@||cdn.jsdelivr.net/npm/materialize^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/mdbootstrap^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/mdb-ui-kit^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/mirage2^$script
+@@||cdn.jsdelivr.net/npm/modaal^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/modernizr^$script
+@@||cdn.jsdelivr.net/npm/moment^$script
+@@||ajax.googleapis.com/ajax/libs/mootools^$script
+@@||cdn.jsdelivr.net/npm/mousetrap^$script
+@@||cdn.jsdelivr.net/npm/ngx-bootstrap^$script
+@@||cdn.jsdelivr.net/npm/nprogress^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/nouislider^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/nvd3^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/object-assign^$script
+@@||cdn.jsdelivr.net/npm/oclazyload^$script
+@@||cdn.jsdelivr.net/npm/owl.carousel^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/owlcarousel2^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/p2p-media-loader^$script
+@@||cdn.jsdelivr.net/npm/p5^$script
+@@||cdn.jsdelivr.net/npm/page^$script
+@@||cdn.jsdelivr.net/npm/paginationjs^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/plyr^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/popper.js^$script
+@@||cdn.jsdelivr.net/npm/progressbar.js^$script
+@@||cdn.jsdelivr.net/npm/prop-types^$script
+@@||cdn.jsdelivr.net/npm/protonet-jquery.inview^$script
+@@||ajax.googleapis.com/ajax/libs/prototype^$script
+@@||cdn.jsdelivr.net/npm/pure^$stylesheet
+@@||cdn.jsdelivr.net/npm/rangeslider.js^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/raven-js^$script
+@@||cdn.jsdelivr.net/npm/react^$script
+@@||cdn.jsdelivr.net/npm/react-dom^$script
+@@||cdn.jsdelivr.net/npm/react-intl^$script
+@@||cdn.jsdelivr.net/npm/react-lifecycles-compat^$script
+@@||cdn.jsdelivr.net/npm/react-redux^$script
+@@||cdn.jsdelivr.net/npm/react-router^$script
+@@||cdn.jsdelivr.net/npm/react-side-effect^$script
+@@||cdn.jsdelivr.net/npm/redux^$script
+@@||cdn.jsdelivr.net/npm/rickshaw^$script,stylesheet
+@@||cdn.cloudflare.com/ajax/libs/rocket-loader^$script
+@@||cdn.jsdelivr.net/npm/script.js^$script
+@@||ajax.googleapis.com/ajax/libs/scriptaculous^$script
+@@||cdn.jsdelivr.net/npm/scrollmagic^$script
+@@||cdn.jsdelivr.net/npm/search-insights^$script
+@@||cdn.jsdelivr.net/npm/select2^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/semantic-ui^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/showdown^$script
+@@||cdn.jsdelivr.net/npm/simplebar^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/simplemde^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/slick-carousel^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/slick-lightbox^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/slider-pro^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/snowplow^$script
+@@||cdn.jsdelivr.net/npm/socket.io^$script
+@@||cdn.jsdelivr.net/npm/spin.js^$script
+@@||cdn.jsdelivr.net/npm/sticky-js^$script
+@@||cdn.jsdelivr.net/npm/stickyfill^$script
+@@||cdn.jsdelivr.net/npm/store.js^$script
+@@||cdn.jsdelivr.net/npm/supabase-js^$script
+@@||cdn.jsdelivr.net/npm/swagger-ui^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/swiper^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/tensorflow^$script
+@@||cdn.jsdelivr.net/npm/tether^$script
+@@||cdn.jsdelivr.net/npm/tinymce^$script
+@@||cdn.jsdelivr.net/npm/toastr^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/twix^$script
+@@||cdn.jsdelivr.net/npm/underscore^$script
+@@||cdn.jsdelivr.net/npm/uri.js^$script
+@@||cdn.jsdelivr.net/npm/urlize^$script
+@@||cdn.jsdelivr.net/npm/vanilla-lazyload^$script
+@@||cdn.jsdelivr.net/npm/vex-js^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/videojs-seek-buttons^$script
+@@||cdn.jsdelivr.net/npm/video.js^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/vue^$script
+@@||cdn.jsdelivr.net/npm/vue-i18n^$script
+@@||cdn.jsdelivr.net/npm/vue-match-media^$script
+@@||cdn.jsdelivr.net/npm/vue-resource^$script
+@@||cdn.jsdelivr.net/npm/vue-router^$script
+@@||cdn.jsdelivr.net/npm/vuex^$script
+@@||cdn.jsdelivr.net/npm/waypoints^$script
+@@||cdn.jsdelivr.net/npm/webcomponentsjs^$script
+@@||cdn.jsdelivr.net/npm/webfont^$script
+@@||cdn.jsdelivr.net/npm/webrtc-adapter^$script
+@@||cdn.jsdelivr.net/npm/wow.js^$script,stylesheet
+@@||cdn.jsdelivr.net/combine/^$script
+@@||cdn.jsdelivr.net/gh/^$script,stylesheet
+@@||cdn.jsdelivr.net/npm/algoliasearch@3.33.0^$script
+@@||cdn.jsdelivr.net/combine/jquery,hogan,algoliasearch,autocomplete^$script
+
+! ##############################
+! ### 1.12 Custom Frameworks ###
+! ##############################
+
+! Custom Frameworks are or have not been included inside LocalCDN as Add-on itself. 
+
+@@||cdn.jsdelivr.net/npm/fos-icon^$stylesheet
+
+! #################################################################
+! ### 1.2 Core CDNs (Google, Microsoft, Cloudflare, jQuery) ###
+! #################################################################
 
 @@||ajax.googleapis.com^$script,stylesheet,font
 @@||ajax.aspnetcdn.com^$script,stylesheet
@@ -26,9 +270,9 @@
 @@||netdna.bootstrapcdn.com^$stylesheet
 @@||use.fontawesome.com^$stylesheet
 
-! ################################################################
-! ### 2. Eastern Mirrors (Baidu, Tencent, Sina, BootCDN, etc.) ###
-! ################################################################
+! #################################################################
+! ### 1.3 Eastern Mirrors (Baidu, Tencent, Sina, BootCDN, etc.) ###
+! #################################################################
 
 @@||yastatic.net^$script,stylesheet
 @@||yandex.st^$script,stylesheet
@@ -42,9 +286,9 @@
 @@||lib.baomitu.com^$script,stylesheet
 @@||cdn.bootcdn.net^$script,stylesheet
 
-! ########################################################
-! ### 3. Other CDNs (Plyr, FontAwesome, MathJax, etc.) ###
-! ########################################################
+! #########################################################
+! ### 1.4 Other CDNs (Plyr, FontAwesome, MathJax, etc.) ###
+! #########################################################
 
 @@||vjs.zencdn.net^$script,stylesheet
 @@||cdn.plyr.io^$script,stylesheet
@@ -62,17 +306,17 @@
 @@||gitcdn.github.io^$script,stylesheet
 @@||akamai-webcdn.kgstatic.net^$script,stylesheet
 
-! #################################
-! ### 4. Loli / Cloudflare Edge ###
-! #################################
+! ##################################
+! ### 1.5 Loli / Cloudflare Edge ###
+! ##################################
 
 @@||cdnjs.loli.net^$script,stylesheet
 @@||ajax.loli.net^$script,stylesheet
 @@||fonts.loli.net^$stylesheet
 
-! ###########################################
-! ### 5. CNAMEs & Fastly / Akamai / Other ###
-! ###########################################
+! ############################################
+! ### 1.6 CNAMEs & Fastly / Akamai / Other ###
+! ############################################
 
 @@||ajax.loli.net.cdn.cloudflare.net^$script,stylesheet
 @@||akamai-webcdn.kgstatic.net.edgesuite.net^$script,stylesheet
@@ -98,9 +342,9 @@
 @@||use.fontawesome.com.cdn.cloudflare.net^$stylesheet
 @@||vo.aicdn.com^$script,stylesheet
 
-! #############################
-! ### 6. Core Fonts & Icons ###
-! #############################
+! ##############################
+! ### 1.7 Core Fonts & Icons ###
+! ##############################
 
 @@||fonts.googleapis.com^$stylesheet
 @@||fonts.gstatic.com^$font
@@ -109,9 +353,9 @@
 @@||cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free^$stylesheet
 @@||cdn.materialdesignicons.com^$stylesheet
 
-! #####################################
-! ### 7. Subdomains / Other Mirrors ###
-! #####################################
+! ######################################
+! ### 1.8 Subdomains / Other Mirrors ###
+! ######################################
 
 @@||*.cdn.cloudflare.net^$script,stylesheet
 @@||*.fastly.net^$script,stylesheet
@@ -124,9 +368,3 @@
 @@||*.upaiyun.com^$script,stylesheet
 @@||*.bdimg.com^$script,stylesheet
 @@||*.gtimg.com^$script,stylesheet
-
-! ############################
-! ### 8. Custom Frameworks ###
-! ############################
-!
-! @@||custom.domains.here$script
