@@ -2,8 +2,11 @@
 ! Title: LocalCDN for Adblock - Allowlist
 ! Description: Covers every framework + every CDN (incl. mirrors) from LocalCDN and more.
 ! Homepage: https://github.com/smokedzn/LocalCDNforAdBlock
-! Version: 02 November 2025
+! License: https://github.com/smokedzn/LocalCDNforAdBlock/blob/main/LICENSE
+! Issues: https://github.com/smokedzn/LocalCDNforAdBlock/issues
+! Version: 2025.1102.1624.02
 ! Syntax: AdBlock
+! Number of entries: 142
 
 ! ############################################################
 ! ### 1. Core CDNs (Google, Microsoft, Cloudflare, jQuery) ###
