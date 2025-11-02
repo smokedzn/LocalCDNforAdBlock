@@ -1,0 +1,129 @@
+[Adblock Plus 2.0]
+! Title: LocalCDN for Adblock - Allowlist
+! Description: Covers every framework + every CDN (incl. mirrors) from LocalCDN and more.
+! Homepage: https://github.com/smokedzn/LocalCDNforAdBlock
+! Version: 02 November 2025
+! Syntax: AdBlock
+
+! ############################################################
+! ### 1. Core CDNs (Google, Microsoft, Cloudflare, jQuery) ###
+! ############################################################
+
+@@||ajax.googleapis.com^$script,stylesheet,font
+@@||ajax.aspnetcdn.com^$script,stylesheet
+@@||ajax.microsoft.com^$script,stylesheet
+@@||cdnjs.cloudflare.com^$script,stylesheet
+@@||code.jquery.com^$script,stylesheet
+@@||cdn.jsdelivr.net^$script,stylesheet
+@@||fonts.googleapis.com^$stylesheet
+@@||fonts.gstatic.com^$font
+@@||unpkg.com^$script,stylesheet
+@@||stackpath.bootstrapcdn.com^$stylesheet
+@@||maxcdn.bootstrapcdn.com^$stylesheet
+@@||netdna.bootstrapcdn.com^$stylesheet
+@@||use.fontawesome.com^$stylesheet
+
+! ################################################################
+! ### 2. Eastern Mirrors (Baidu, Tencent, Sina, BootCDN, etc.) ###
+! ################################################################
+
+@@||yastatic.net^$script,stylesheet
+@@||yandex.st^$script,stylesheet
+@@||apps.bdimg.com^$script,stylesheet
+@@||libs.baidu.com^$script,stylesheet
+@@||cdn.staticfile.org^$script,stylesheet
+@@||cdn.bootcss.com^$script,stylesheet
+@@||mat1.gtimg.com^$script,stylesheet
+@@||lib.sinaapp.com^$script,stylesheet
+@@||upcdn.b0.upaiyun.com^$script,stylesheet
+@@||lib.baomitu.com^$script,stylesheet
+@@||cdn.bootcdn.net^$script,stylesheet
+
+! ########################################################
+! ### 3. Other CDNs (Plyr, FontAwesome, MathJax, etc.) ###
+! ########################################################
+
+@@||vjs.zencdn.net^$script,stylesheet
+@@||cdn.plyr.io^$script,stylesheet
+@@||cdn.materialdesignicons.com^$stylesheet
+@@||cdn.ravenjs.com^$script
+@@||js.appboycdn.com^$script
+@@||cdn.embed.ly^$script,stylesheet
+@@||cdn.datatables.net^$script,stylesheet
+@@||mathjax.rstudio.com^$script
+@@||cdn.mathjax.org^$script
+@@||code.createjs.com^$script
+@@||sdn.geekzu.org^$script,stylesheet
+@@||ajax.proxy.ustclug.org^$script,stylesheet
+@@||pagecdn.io^$script,stylesheet
+@@||gitcdn.github.io^$script,stylesheet
+@@||akamai-webcdn.kgstatic.net^$script,stylesheet
+
+! #################################
+! ### 4. Loli / Cloudflare Edge ###
+! #################################
+
+@@||cdnjs.loli.net^$script,stylesheet
+@@||ajax.loli.net^$script,stylesheet
+@@||fonts.loli.net^$stylesheet
+
+! ###########################################
+! ### 5. CNAMEs & Fastly / Akamai / Other ###
+! ###########################################
+
+@@||ajax.loli.net.cdn.cloudflare.net^$script,stylesheet
+@@||akamai-webcdn.kgstatic.net.edgesuite.net^$script,stylesheet
+@@||apps.bdimg.jomodns.com^$script,stylesheet
+@@||cdn.bootcdn.net.maoyundns.com^$script,stylesheet
+@@||cdn.bootcss.com.maoyundns.com^$script,stylesheet
+@@||cdn.embed.ly.cdn.cloudflare.net^$script,stylesheet
+@@||cdn.jsdelivr.net.cdn.cloudflare.net^$script,stylesheet
+@@||cdnjs.loli.net.cdn.cloudflare.net^$script,stylesheet
+@@||cds.s5x3j6q5.hwcdn.net^$script,stylesheet
+@@||developer.n.shifen.com^$script,stylesheet
+@@||dualstack.osff.map.fastly.net^$script,stylesheet
+@@||fonts.loli.net.cdn.cloudflare.net^$stylesheet
+@@||gateway.cname.ustclug.org^$script,stylesheet
+@@||gstaticadssl.l.google.com^$font
+@@||iduwdjf.qiniudns.com^$script,stylesheet
+@@||lb.sae.sina.com.cn^$script,stylesheet
+@@||lib.baomitu.com.qh-cdn.com^$script,stylesheet
+@@||mat1.gtimg.com.tegsea.tc.qq.com^$script,stylesheet
+@@||materialdesignicons.b-cdn.net^$stylesheet
+@@||mscomajax.vo.msecnd.net^$script,stylesheet
+@@||sdn.inbond.gslb.geekzu.org^$script,stylesheet
+@@||use.fontawesome.com.cdn.cloudflare.net^$stylesheet
+@@||vo.aicdn.com^$script,stylesheet
+
+! #############################
+! ### 6. Core Fonts & Icons ###
+! #############################
+
+@@||fonts.googleapis.com^$stylesheet
+@@||fonts.gstatic.com^$font
+@@||use.fontawesome.com^$stylesheet
+@@||maxcdn.bootstrapcdn.com/font-awesome^$stylesheet
+@@||cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free^$stylesheet
+@@||cdn.materialdesignicons.com^$stylesheet
+
+! #####################################
+! ### 7. Subdomains / Other Mirrors ###
+! #####################################
+
+@@||*.cdn.cloudflare.net^$script,stylesheet
+@@||*.fastly.net^$script,stylesheet
+@@||*.hwcdn.net^$script,stylesheet
+@@||*.edgesuite.net^$script,stylesheet
+@@||*.loli.net^$script,stylesheet
+@@||*.bootcdn.net^$script,stylesheet
+@@||*.baomitu.com^$script,stylesheet
+@@||*.sinaapp.com^$script,stylesheet
+@@||*.upaiyun.com^$script,stylesheet
+@@||*.bdimg.com^$script,stylesheet
+@@||*.gtimg.com^$script,stylesheet
+
+! ############################
+! ### 8. Custom Frameworks ###
+! ############################
+!
+! @@||custom.domains.here$script
