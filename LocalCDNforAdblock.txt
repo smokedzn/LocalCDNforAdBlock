@@ -6,7 +6,7 @@
 ! Issues: https://github.com/smokedzn/LocalCDNforAdBlock/issues
 ! Version: 2025.1102.1649.34
 ! Syntax: AdBlock
-! Number of entries: 
+! Number of entries: 441
 
 ! ##############################################
 ! ### 1.1 Frameworks (Fonts, Icons, Scripts) ###
